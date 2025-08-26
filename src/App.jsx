@@ -9,6 +9,7 @@ import Programs from "./pages/Programs";
 import Testimonies from "./pages/Testimonies";
 import Pastors from "./pages/Pastors";
 import Fellowships from "./pages/Fellowships";
+import Leaders from "./pages/Leaders";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/testimonies" element={<Testimonies />} />
           <Route path="/pastors" element={<Pastors />} />
           <Route path="/fellowships" element={<Fellowships />} />
+          <Route path="/leaders" element={<Leaders />} />
         </Routes>
       </main>
 

@@ -13,7 +13,7 @@ export default function Programs() {
         setPrograms(data.programs || []);
         notifyInfo("Programs loaded 📅");
       });
-  }, []);
+  }, [notifyInfo]);
 
   return (
     <section className="container mx-auto p-6">
