@@ -1,0 +1,280 @@
+{
+  "pastors": [
+    {
+      "id": "pastor-1",
+      "name": "Pastor Samuel Mensah",
+      "title": "Lead Pastor",
+      "bio": "Passionate leader focused on youth discipleship and outreach.",
+      "photo": "/images/pastor-samuel.jpg",
+      "contact": { "email": "samuel@example.org" }
+    },
+    {
+      "id": "pastor-2",
+      "name": "Pastor Grace Agyapong",
+      "title": "Associate Pastor",
+      "bio": "Loves mentoring and worship ministry.",
+      "photo": "/images/pastor-grace.jpg",
+      "contact": { "email": "grace@example.org" }
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-1",
+      "name": "Central Branch",
+      "location": "Accra",
+      "fellowships": [
+        {
+          "id": "f1",
+          "name": "Worship Team",
+          "leader": {
+            "id": "l-1",
+            "name": "Peter Owusu",
+            "role": "Worship Leader",
+            "bio": "Coordinates worship nights and rehearsal schedules.",
+            "members": ["Ama K.", "Kojo A.", "Evelyn B."]
+          }
+        },
+        {
+          "id": "f2",
+          "name": "Prayer Fellowship",
+          "leader": {
+            "id": "l-2",
+            "name": "Ruth Akoto",
+            "role": "Prayer Leader",
+            "bio": "Organizes intercessory prayer and fasting.",
+            "members": ["David T.", "Abena S.", "Michael K."]
+          }
+        },
+        {
+          "id": "f3",
+          "name": "Community Outreach",
+          "leader": {
+            "id": "l-3",
+            "name": "Benjamin Nkrumah",
+            "role": "Outreach Coordinator",
+            "bio": "Runs feeding schemes and local outreach.",
+            "members": ["Selina A.", "Mark P.", "Christine L."]
+          }
+        },
+        {
+          "id": "f4",
+          "name": "Young Adults",
+          "leader": {
+            "id": "l-4",
+            "name": "Nana Yaw",
+            "role": "Fellowship Leader",
+            "bio": "Runs weekly Bible study for young adults.",
+            "members": ["Ivy D.", "Samuel B.", "Linda O."]
+          }
+        },
+        {
+          "id": "f5",
+          "name": "Tech & Media",
+          "leader": {
+            "id": "l-5",
+            "name": "Joyce Mensah",
+            "role": "Media Lead",
+            "bio": "Handles livestreams and recordings.",
+            "members": ["Chris M.", "Esi G.", "Frank A."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "branch-2",
+      "name": "East Branch",
+      "location": "Tema",
+      "fellowships": [
+        {
+          "id": "f6",
+          "name": "Hospitality Team",
+          "leader": {
+            "id": "l-6",
+            "name": "Agnes A.",
+            "role": "Hospitality Lead",
+            "bio": "Welcomes guests and organizes refreshments.",
+            "members": ["Peter N.", "Linda K.", "Joseph M."]
+          }
+        },
+        {
+          "id": "f7",
+          "name": "Youth Connect",
+          "leader": {
+            "id": "l-7",
+            "name": "Daniel Koranteng",
+            "role": "Youth Leader",
+            "bio": "Leads programs for teens and young people.",
+            "members": ["Ebo T.", "Nana E.", "Fidelia R."]
+          }
+        },
+        {
+          "id": "f8",
+          "name": "Women Fellowship",
+          "leader": {
+            "id": "l-8",
+            "name": "Mercy Owusu",
+            "role": "Women Leader",
+            "bio": "Encourages and mentors women in faith.",
+            "members": ["Abena P.", "Yvonne S.", "Theresa L."]
+          }
+        },
+        {
+          "id": "f9",
+          "name": "Men's Fellowship",
+          "leader": {
+            "id": "l-9",
+            "name": "Samuel T.",
+            "role": "Men's Leader",
+            "bio": "Organizes Bible study and accountability groups.",
+            "members": ["Kofi A.", "Yaw D.", "Kwame B."]
+          }
+        },
+        {
+          "id": "f10",
+          "name": "Missions Group",
+          "leader": {
+            "id": "l-10",
+            "name": "Comfort A.",
+            "role": "Missions Coordinator",
+            "bio": "Coordinates short-term missions and community service.",
+            "members": ["Rex O.", "Elsie M.", "Nana K."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "branch-3",
+      "name": "North Branch",
+      "location": "Kumasi",
+      "fellowships": [
+        {
+          "id": "f11",
+          "name": "Bible Study",
+          "leader": {
+            "id": "l-11",
+            "name": "Josephine A.",
+            "role": "Study Leader",
+            "bio": "Facilitates deep-dive Bible study groups.",
+            "members": ["Akwasi N.", "Esther B.", "Daniel S."]
+          }
+        },
+        {
+          "id": "f12",
+          "name": "Counseling Team",
+          "leader": {
+            "id": "l-12",
+            "name": "Michael Osei",
+            "role": "Counselor",
+            "bio": "Provides pastoral care and counseling referrals.",
+            "members": ["Grace F.", "Ibrahim M.", "Selina C."]
+          }
+        },
+        {
+          "id": "f13",
+          "name": "Creative Arts",
+          "leader": {
+            "id": "l-13",
+            "name": "Rebecca K.",
+            "role": "Creative Lead",
+            "bio": "Manages drama, dance and visual design for events.",
+            "members": ["Emmanuel J.", "Hannah L.", "Peter Q."]
+          }
+        },
+        {
+          "id": "f14",
+          "name": "Finance Committee",
+          "leader": {
+            "id": "l-14",
+            "name": "Kwesi A.",
+            "role": "Finance Secretary",
+            "bio": "Oversees branch finances and budgeting.",
+            "members": ["Miriam T.", "Paul N.", "Akua R."]
+          }
+        },
+        {
+          "id": "f15",
+          "name": "Alumni Fellowship",
+          "leader": {
+            "id": "l-15",
+            "name": "Elias M.",
+            "role": "Alumni Coordinator",
+            "bio": "Connects former members and organizes reunions.",
+            "members": ["Sandra L.", "Kobby O.", "Doris H."]
+          }
+        }
+      ]
+    },
+    {
+      "id": "branch-4",
+      "name": "West Branch",
+      "location": "Takoradi",
+      "fellowships": [
+        {
+          "id": "f16",
+          "name": "Evangelism Team",
+          "leader": {
+            "id": "l-16",
+            "name": "Peter K.",
+            "role": "Evangelism Lead",
+            "bio": "Leads street evangelism and outreach training.",
+            "members": ["Joan A.", "Prince B.", "Martha C."]
+          }
+        },
+        {
+          "id": "f17",
+          "name": "Care Ministry",
+          "leader": {
+            "id": "l-17",
+            "name": "Helena S.",
+            "role": "Care Coordinator",
+            "bio": "Visits sick members and coordinates support.",
+            "members": ["Kwabena D.", "Akosua F.", "Michael P."]
+          }
+        },
+        {
+          "id": "f18",
+          "name": "Children's Fellowship",
+          "leader": {
+            "id": "l-18",
+            "name": "Anna N.",
+            "role": "Children's Leader",
+            "bio": "Teaches Sunday school and runs kids' activities.",
+            "members": ["Little A.", "Little B.", "Little C."]
+          }
+        },
+        {
+          "id": "f19",
+          "name": "Events Team",
+          "leader": {
+            "id": "l-19",
+            "name": "Francis T.",
+            "role": "Events Manager",
+            "bio": "Plans and executes branch events and conferences.",
+            "members": ["Yaw S.", "Nana P.", "Esi O."]
+          }
+        },
+        {
+          "id": "f20",
+          "name": "Support Services",
+          "leader": {
+            "id": "l-20",
+            "name": "Celia M.",
+            "role": "Support Lead",
+            "bio": "Coordinates logistics and volunteer schedules.",
+            "members": ["Kojo L.", "Beatrice W.", "Samuel G."]
+          }
+        }
+      ]
+    }
+  ],
+  "testimonies": [
+    {
+      "name": "John Doe",
+      "message": "I was healed during our prayer session!"
+    },
+    {
+      "name": "Jane Smith",
+      "message": "God provided a new job after months of searching."
+    }
+  ]
+}
